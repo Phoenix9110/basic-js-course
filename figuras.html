@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geométricas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Figuras Geométricas</h1>
+        <p>Calcula el Área y Perímetro de las siguientes figuras geométricas</p>
+    </header>
+    <main>
+
+        <section>
+            <h2>cuadrado</h2>
+            <form action="">
+                <input type="number" name="square_size" id="square_size" placeholder="Lado">
+                <button type="button" onclick="getCuadrado()">Calcular</button>
+            </form>
+        </section>
+        <section>
+            <h2>triangulo</h2>
+            <form action="" class="triangle">
+                <input type="number" placeholder="Primer Lado" id="triangle_size"><br>
+                <input type="number" placeholder="Segundo Lado" id="triangle_size2"><br>
+                <input type="number" placeholder="Base" id="triangle_base"><br>
+                <input type="number" placeholder="Altura" id="triangle_height">
+                <button type="button" onclick="getTriangulo()">Calcular</button>
+            </form>
+        </section>
+        <section>
+            <h2>circulo</h2>
+            <form action="">
+                <input type="number" name="circle_size" id="circle_size" placeholder="Radio">
+                <button type="button" onclick="getCirculo()">Calcular</button>
+            </form>
+        </section>
+    </ma>
+    <script src="./figuras.js"></script>
+    
+</body>
+</html>
